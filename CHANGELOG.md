@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-12)
+## Unreleased (2026-04-21)
+
+<section class="features">
+
+### Features
+
+-   [`66e748f`](https://github.com/stdlib-js/stdlib/commit/66e748fefcc9442f7e5173132636e4a7948c64b5) - add C implementation for `stats/base/ndarray/dmaxsorted` [(#10220)](https://github.com/stdlib-js/stdlib/pull/10220)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`66e748f`](https://github.com/stdlib-js/stdlib/commit/66e748fefcc9442f7e5173132636e4a7948c64b5) - **feat:** add C implementation for `stats/base/ndarray/dmaxsorted` [(#10220)](https://github.com/stdlib-js/stdlib/pull/10220) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
 -   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,12 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Bhargav Dabhade
 -   Karan Anand
+-   Sachin Pangal
 
 </section>
 
