@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-17)
+## Unreleased (2026-06-22)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`aed59d8`](https://github.com/stdlib-js/stdlib/commit/aed59d8fb4f75747d24fef73037981716ca2da19) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`6509b52`](https://github.com/stdlib-js/stdlib/commit/6509b52558181f7c6cba1aa45f7cf924f0e9b7c3) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
 -   [`66e748f`](https://github.com/stdlib-js/stdlib/commit/66e748fefcc9442f7e5173132636e4a7948c64b5) - **feat:** add C implementation for `stats/base/ndarray/dmaxsorted` [(#10220)](https://github.com/stdlib-js/stdlib/pull/10220) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
@@ -37,11 +38,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
 -   Karan Anand
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Sachin Pangal
 
