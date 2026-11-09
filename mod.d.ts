@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,42 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { float64ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the maximum value of a sorted one-dimensional double-precision floating-point ndarray.
+* Computes the maximum value of a sorted one-dimensional double-precision floating-point ndarray.
 *
-* @module @stdlib/stats-base-ndarray-dmaxsorted
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns maximum value
 *
 * @example
 * var Float64Vector = require( '@stdlib/ndarray-vector-float64' );
-* var dmaxsorted = require( '@stdlib/stats-base-ndarray-dmaxsorted' );
 *
 * var x = new Float64Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
 *
 * var v = dmaxsorted( [ x ] );
 * // returns 4.0
 */
-
-// MODULES //
-
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils-try-require' );
-var isError = require( '@stdlib/assert-is-error' );
-var main = require( './main.js' );
-
-
-// MAIN //
-
-var dmaxsorted;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	dmaxsorted = main;
-} else {
-	dmaxsorted = tmp;
-}
+declare function dmaxsorted( arrays: [ float64ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = dmaxsorted;
+export = dmaxsorted;
